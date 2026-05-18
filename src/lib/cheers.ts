@@ -2,28 +2,24 @@ export const CORRECT_CHEERS = [
   "Askimmm du bist eine Löwin ✨",
   "Pflegerimm Streberimmm",
   "Eeehhh kimin sevgilisiii ❤️",
-  "Canim, das saß perfekt",
-  "Prüfung? Pff. Du isst die zum Frühstück",
-  "Brain wie ein Lehrbuch, Herz wie Sonne",
-  "Notenkönigin im Anmarsch",
+  "Baammm das saß perfekt",
+  "Gehirn wie ein Lehrbuch ama Herz wie Sonne",
+  "Gilette Klinge bist du",
 ];
 
 export const ENCOURAGE = [
-  "Nächste Frage wird wieder — und vergiss ned genug trinken",
+  "Nächste Frage wird wieder und vergiss ned genug trinkennnn",
   "Fehler sind nur Helfer beim Lernennnn",
-  "Atmen, lächeln, weiter — du schaffst das eh",
-  "Du baust gerade dein Wissen Stein für Stein",
+  "Wird schon",
 ];
 
 export const FINISH_GREAT = [
-  "Das war richtig stark. Ich bin so stolz auf dich.",
-  "Wenn ich Hände hätte, würde ich klatschen — riesig.",
+  "Löwin",
+  "Wenn ich Hände hätte, würde ich klatschen.",
   "Du bist bereit. Punkt. Ende der Diskussion.",
 ];
 
 export const FINISH_OK = [
-  "Solide Runde. Beim nächsten Mal noch ein Stück besser.",
-  "Du bist auf dem Weg — bleib dran, das wird.",
 ];
 
 export function pickOne<T>(arr: T[]) {
