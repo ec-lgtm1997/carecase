@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { getSyncCode } from "./sync-id";
+import { saveSessionFn, deleteSessionFn, clearSessionsFn, fetchSessions } from "./server-fns";
 
 export type Score = 0 | 0.5 | 1;
 
@@ -15,7 +17,7 @@ export type SessionRecord = {
   id: string;
   date: number;
   mode: "theme" | "simulator";
-  label: string; // theme name or "Prüfungs-Simulator"
+  label: string;
   answers: SessionAnswer[];
   totalPoints: number;
   maxPoints: number;
@@ -24,12 +26,12 @@ export type SessionRecord = {
   gradeLabel: string;
 };
 
-const KEY = "ccm.history.v1";
+const LOCAL_KEY = "ccm.history.v1";
 
-function read(): SessionRecord[] {
+function readLocal(): SessionRecord[] {
   if (typeof window === "undefined") return [];
   try {
-    const raw = window.localStorage.getItem(KEY);
+    const raw = window.localStorage.getItem(LOCAL_KEY);
     if (!raw) return [];
     return JSON.parse(raw) as SessionRecord[];
   } catch {
@@ -37,30 +39,51 @@ function read(): SessionRecord[] {
   }
 }
 
-function write(list: SessionRecord[]) {
-  window.localStorage.setItem(KEY, JSON.stringify(list));
+function writeLocal(list: SessionRecord[]) {
+  window.localStorage.setItem(LOCAL_KEY, JSON.stringify(list));
   window.dispatchEvent(new Event("ccm-history-changed"));
 }
 
 export function saveSession(rec: SessionRecord) {
-  const list = read();
+  const list = readLocal();
   list.unshift(rec);
-  write(list.slice(0, 200));
+  writeLocal(list.slice(0, 200));
+
+  const syncCode = getSyncCode();
+  if (syncCode) {
+    saveSessionFn({ data: { syncCode, record: rec } }).catch(console.error);
+  }
 }
 
 export function deleteSession(id: string) {
-  write(read().filter(r => r.id !== id));
+  writeLocal(readLocal().filter((r) => r.id !== id));
+
+  const syncCode = getSyncCode();
+  if (syncCode) {
+    deleteSessionFn({ data: { syncCode, sessionId: id } }).catch(console.error);
+  }
 }
 
 export function clearHistory() {
-  write([]);
+  writeLocal([]);
+
+  const syncCode = getSyncCode();
+  if (syncCode) {
+    clearSessionsFn({ data: syncCode }).catch(console.error);
+  }
+}
+
+export async function syncFromCloud(syncCode: string): Promise<SessionRecord[]> {
+  const records = await fetchSessions({ data: syncCode });
+  writeLocal(records);
+  return records;
 }
 
 export function useHistory() {
   const [list, setList] = useState<SessionRecord[]>([]);
   useEffect(() => {
-    setList(read());
-    const h = () => setList(read());
+    setList(readLocal());
+    const h = () => setList(readLocal());
     window.addEventListener("ccm-history-changed", h);
     window.addEventListener("storage", h);
     return () => {
