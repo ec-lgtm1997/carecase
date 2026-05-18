@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import confetti from "canvas-confetti";
 import { Question } from "@/lib/exam-data";
-import { ChevronDown } from "lucide-react";
+import { Check, ChevronDown, Minus, X } from "lucide-react";
 import { Score, SessionAnswer, SessionRecord, saveSession } from "@/lib/history";
 import { gradeFromPercent } from "@/lib/grade";
 import { CORRECT_CHEERS, ENCOURAGE, FINISH_GREAT, FINISH_OK, pickOne } from "@/lib/cheers";
@@ -142,27 +142,42 @@ export function ExamSession({ questions, mode, label, onExit }: Props) {
               <p className="text-center text-sm text-muted-foreground mb-3">
                 Wie bewertest du deine Antwort?
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              <div className="grid grid-cols-3 gap-3">
                 <button
                   onClick={() => score(1)}
-                  className="rounded-2xl bg-success text-success-foreground font-medium py-4 shadow-sm hover:shadow-md active:scale-[0.98] transition"
+                  className="group flex flex-col items-center gap-2 rounded-2xl bg-success text-success-foreground py-5 px-3 shadow-md hover:shadow-xl hover:scale-[1.03] active:scale-[0.97] transition-all duration-150"
                 >
-                  Ganz richtig
-                  <span className="block text-xs opacity-80 font-normal mt-0.5">1,0 Punkt</span>
+                  <span className="flex items-center justify-center w-10 h-10 rounded-full bg-white/20 group-hover:bg-white/30 transition">
+                    <Check className="w-5 h-5" strokeWidth={2.5} />
+                  </span>
+                  <span className="font-display text-base leading-tight">Richtig</span>
+                  <span className="text-[11px] font-semibold bg-white/20 rounded-full px-2.5 py-0.5 leading-none">
+                    1,0 Pt.
+                  </span>
                 </button>
                 <button
                   onClick={() => score(0.5)}
-                  className="rounded-2xl bg-warning text-warning-foreground font-medium py-4 shadow-sm hover:shadow-md active:scale-[0.98] transition"
+                  className="group flex flex-col items-center gap-2 rounded-2xl bg-warning text-warning-foreground py-5 px-3 shadow-md hover:shadow-xl hover:scale-[1.03] active:scale-[0.97] transition-all duration-150"
                 >
-                  Halb richtig
-                  <span className="block text-xs opacity-80 font-normal mt-0.5">0,5 Punkte</span>
+                  <span className="flex items-center justify-center w-10 h-10 rounded-full bg-black/10 group-hover:bg-black/15 transition">
+                    <Minus className="w-5 h-5" strokeWidth={2.5} />
+                  </span>
+                  <span className="font-display text-base leading-tight">Halb</span>
+                  <span className="text-[11px] font-semibold bg-black/10 rounded-full px-2.5 py-0.5 leading-none">
+                    0,5 Pt.
+                  </span>
                 </button>
                 <button
                   onClick={() => score(0)}
-                  className="rounded-2xl bg-warm text-warm-foreground font-medium py-4 shadow-sm hover:shadow-md active:scale-[0.98] transition"
+                  className="group flex flex-col items-center gap-2 rounded-2xl bg-warm text-warm-foreground py-5 px-3 shadow-md hover:shadow-xl hover:scale-[1.03] active:scale-[0.97] transition-all duration-150"
                 >
-                  Nicht richtig
-                  <span className="block text-xs opacity-80 font-normal mt-0.5">0 Punkte</span>
+                  <span className="flex items-center justify-center w-10 h-10 rounded-full bg-white/20 group-hover:bg-white/30 transition">
+                    <X className="w-5 h-5" strokeWidth={2.5} />
+                  </span>
+                  <span className="font-display text-base leading-tight">Falsch</span>
+                  <span className="text-[11px] font-semibold bg-white/20 rounded-full px-2.5 py-0.5 leading-none">
+                    0 Pt.
+                  </span>
                 </button>
               </div>
             </div>
