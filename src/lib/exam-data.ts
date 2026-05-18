@@ -1,17 +1,24 @@
-import raw from "@/data/exam.json";
+import raw from "@/data/exam_mit_schluesselbegriffen.json";
+
+export type Schluessel = {
+  begriffe: string[];
+  stichpunkte: string[];
+};
 
 export type Question = {
   id: string;
   q: string;
   a: string;
   theme: string;
+  schluessel?: Schluessel;
   caseTitle?: string;
   caseVignette?: string;
 };
 
+type RawQuestion = { q: string; a: string; schluessel?: Schluessel };
 type Raw = {
-  themes: { name: string; questions: { q: string; a: string }[] }[];
-  cases: { title: string; vignette: string; questions: { q: string; a: string }[] }[];
+  themes: { name: string; questions: RawQuestion[] }[];
+  cases: { title: string; vignette: string; questions: RawQuestion[] }[];
 };
 
 const data = raw as Raw;
@@ -24,6 +31,7 @@ export const themes = data.themes.map((t, ti) => ({
     q: q.q,
     a: q.a,
     theme: t.name,
+    schluessel: q.schluessel,
   })),
 }));
 
@@ -36,6 +44,7 @@ export const cases = data.cases.map((c, ci) => ({
     q: q.q,
     a: q.a,
     theme: c.title,
+    schluessel: q.schluessel,
     caseTitle: c.title,
     caseVignette: c.vignette,
   })),

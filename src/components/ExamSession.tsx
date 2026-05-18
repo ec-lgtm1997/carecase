@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import confetti from "canvas-confetti";
 import { Question } from "@/lib/exam-data";
+import { ChevronDown } from "lucide-react";
 import { Score, SessionAnswer, SessionRecord, saveSession } from "@/lib/history";
 import { gradeFromPercent } from "@/lib/grade";
 import { CORRECT_CHEERS, ENCOURAGE, FINISH_GREAT, FINISH_OK, pickOne } from "@/lib/cheers";
@@ -134,17 +135,7 @@ export function ExamSession({ questions, mode, label, onExit }: Props) {
           </button>
         ) : (
           <div className="space-y-5 animate-slide-up">
-            <div className="rounded-3xl bg-gradient-to-br from-primary/10 via-accent/30 to-warm/10 border border-primary/20 p-6">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-bold">
-                  ✓
-                </span>
-                <h3 className="font-display text-lg text-foreground">Musterlösung</h3>
-              </div>
-              <div className="prose-sm text-foreground whitespace-pre-line leading-relaxed">
-                {q.a}
-              </div>
-            </div>
+            <RevealedAnswer question={q} />
 
             <div>
               <p className="text-center text-sm text-muted-foreground mb-3">
@@ -177,6 +168,58 @@ export function ExamSession({ questions, mode, label, onExit }: Props) {
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+function RevealedAnswer({ question }: { question: Question }) {
+  const [expanded, setExpanded] = useState(false);
+  const hasStichwort = question.schluessel && question.schluessel.stichpunkte.length > 0;
+
+  return (
+    <div className="rounded-3xl bg-gradient-to-br from-primary/10 via-accent/30 to-warm/10 border border-primary/20 overflow-hidden">
+      <div className="p-6">
+        <div className="flex items-center gap-2 mb-4">
+          <span className="inline-flex h-7 w-7 items-center justify-center rounded-full bg-primary text-primary-foreground text-sm font-bold">
+            ✓
+          </span>
+          <h3 className="font-display text-lg text-foreground">Musterlösung</h3>
+        </div>
+
+        {hasStichwort && (
+          <div className="space-y-2 mb-4">
+            {question.schluessel!.stichpunkte.map((s, i) => (
+              <div
+                key={i}
+                className="flex items-start gap-2.5 rounded-xl bg-card/70 border border-border px-3.5 py-2.5"
+              >
+                <span className="mt-0.5 h-5 w-5 shrink-0 rounded-full bg-primary/15 text-primary text-xs font-bold flex items-center justify-center">
+                  {i + 1}
+                </span>
+                <p className="text-sm text-foreground leading-snug">{s}</p>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <button
+          onClick={() => setExpanded((v) => !v)}
+          className="flex items-center gap-1.5 text-sm font-medium text-primary hover:text-primary/80 transition"
+        >
+          <ChevronDown
+            className={`h-4 w-4 transition-transform duration-200 ${expanded ? "rotate-180" : ""}`}
+          />
+          {expanded ? "Volltext ausblenden" : "Vollständige Musterlösung anzeigen"}
+        </button>
+      </div>
+
+      {expanded && (
+        <div className="border-t border-primary/15 px-6 pb-6 pt-4">
+          <div className="prose-sm text-foreground whitespace-pre-line leading-relaxed">
+            {question.a}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
