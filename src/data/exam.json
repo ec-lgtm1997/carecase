@@ -1,0 +1,244 @@
+{
+  "themes": [
+    {
+      "name": "Begriffserklärungen",
+      "questions": [
+        {
+          "q": "Was versteht man unter Care Management? Grenzen Sie es klar vom Case\nManagement ab.",
+          "a": "Care Management bedeutet die Steuerung des Versorgungssystems auf\neiner übergeordneten, strukturellen Ebene. Es geht nicht um einen\neinzelnen Fall, sondern darum, wie Angebote, Dienste und Strukturen\norganisiert sein müssen, damit passende Hilfe für eine\nBevölkerungsgruppe überhaupt verfügbar ist. Care Management\nkoordiniert fallübergreifend und einrichtungsübergreifend\nbedarfsgerecht Hilfen im Sozial- und Gesundheitswesen.\n\nCase Management hingegen bedeutet die Steuerung eines konkreten\nEinzelfalls. Es koordiniert psychosoziale, medizinische und\npflegerische Angebote für eine bestimmte Person. Dabei wird ein\nHelfernetz aufgebaut und die Selbsthilfe der Klientin gestärkt.\n\nMerksatz: Care baut das System -- Case nutzt das System für einen\nkonkreten Menschen."
+        },
+        {
+          "q": "Erklären Sie den Begriff Disease Management und beschreiben Sie den\nUnterschied zum Case Management.",
+          "a": "Disease Management ist ein Instrument zur Steuerung der Behandlung\nvon Personengruppen mit einer bestimmten Erkrankung. Im Mittelpunkt\nsteht nicht der individuelle Einzelfall, sondern die Krankheit und\nderen standardisierte Behandlung anhand von Programmen und Leitlinien\n-- zum Beispiel für Diabetes oder COPD.\n\nUnterschied zum Case Management:\n\n- Disease Management fragt: Was brauchen alle Menschen mit dieser\nKrankheit?\n\n- Case Management fragt: Was braucht genau diese eine konkrete\nPerson?\n\nDisease Management arbeitet also mit standardisierten\nBehandlungspfaden für eine Gruppe, Case Management mit individuell\nzugeschnittener Fallsteuerung."
+        },
+        {
+          "q": "Was sind Clinical Pathways (Behandlungspfade) und welche Ziele\nverfolgen sie?",
+          "a": "Clinical Pathways sind schriftlich festgelegte Prozessabläufe im\nKrankenhaus. Sie organisieren die Beiträge verschiedener\nBerufsgruppen und Fachabteilungen idealtypisch für bestimmte\nPatientengruppen.\n\nZiele von Clinical Pathways:\n\n- Transparenz und Planbarkeit der Behandlung\n\n- Einheitliche Dokumentation\n\n- Standardisierung der Abläufe\n\n- Bessere Zusammenarbeit an den Schnittstellen zwischen Abteilungen\n\n- Vermeidung unnötiger Doppelarbeit\n\nEinfach gesagt: Clinical Pathways sind der „Fahrplan\\\" einer\ntypischen Behandlung im Krankenhaus."
+        },
+        {
+          "q": "Was versteht man unter Entlassungsmanagement? Welche zwei Formen\nwerden unterschieden?",
+          "a": "Entlassungsmanagement hat das Ziel, nach einem Krankenhausaufenthalt\neine kontinuierliche, bedarfsgerechte Versorgung sicherzustellen. Es\nrichtet sich besonders an Patienten mit erwartbaren poststationären\nVersorgungsproblemen und Pflege- bzw. Unterstützungsbedarf.\n\nZiele sind u.a.: Zufriedenheit, kontinuierliche Betreuung,\nnahtstellenübergreifender Informationsfluss, klare Dokumentation,\nEmpowerment und Stärkung der Eigenverantwortung.\n\nZwei Formen:\n\n1. Direktes Entlassungsmanagement: findet auf der Station statt, als\nTeil des Pflegeprozesses.\n\n2. Indirektes Entlassungsmanagement: prozessorientiert, läuft im\nSinne eines Case Managements quer über Berufs-, Abteilungs- und\nOrganisationsgrenzen.\n\nWichtig: Entlassungsmanagement arbeitet nicht alle Stufen des\nvollständigen CM-Regelkreises ab."
+        },
+        {
+          "q": "Was bedeutet Sozialraumorientierung? Nennen Sie die Kernprinzipien.",
+          "a": "Sozialraumorientierung bedeutet: Der Mensch ist Experte seiner\neigenen Lebenswelt. Hilfe soll sich am Willen der Menschen, an ihren\nRessourcen und an Aktivierung statt bloßer Betreuung orientieren.\n\nKernprinzipien:\n\n- Orientierung am Willen der Menschen, nicht an Defiziten\n\n- Ressourcenorientierung: Was ist im Lebensfeld schon vorhanden?\n(Nachbarn, Familie, Gemeinde, Vereine)\n\n- Aktivierung statt passiver Betreuung\n\n- Vernetzung und Kooperation sozialer Dienste\n\n- Das Wohnumfeld und soziale Netzwerke werden aktiv mitgedacht\n\nDer Blick richtet sich also nicht nur auf Probleme, sondern auch auf\nvorhandene Stärken und Ressourcen im Umfeld der Person."
+        },
+        {
+          "q": "Nennen und erklären Sie kurz alle sechs Kernbegriffe des Fachs mit je\neinem Satz.",
+          "a": "1. Care Management = Steuerung des Versorgungssystems (nicht des\nEinzelfalls)\n\n2. Case Management = Steuerung eines konkreten Einzelfalls\n\n3. Disease Management = Standardisierte Behandlung von\nPersonengruppen mit einer bestimmten Erkrankung\n\n4. Clinical Pathways = Schriftlich festgelegte Behandlungsabläufe im\nKrankenhaus\n\n5. Entlassungsmanagement = Sicherstellung einer kontinuierlichen\nVersorgung nach dem Krankenhausaufenthalt\n\n6. Sozialraumorientierung = Hilfe, die das soziale Umfeld und die\nRessourcen der Person aktiv miteinbezieht\n\nEselsbrücke: Care = System \\| Case = Einzelfall \\| Disease =\nKrankheitsgruppe \\| Clinical Pathway = Krankenhausfahrplan \\|\nEntlassungsmanagement = sicherer Übergang \\| Sozialraumorientierung =\nLebensumfeld mitdenken"
+        }
+      ]
+    },
+    {
+      "name": "Funktionen und Aufgaben im Case Management",
+      "questions": [
+        {
+          "q": "Erklären Sie die Advocacy-Funktion im Case Management. Was bedeutet\nsie konkret in der Fallarbeit?",
+          "a": "Bei der Advocacy-Funktion vertritt die Case Managerin konsequent den\nBlickwinkel und die Interessen der Klientin. Sie nimmt eine\nparteiliche Rolle ein.\n\nKonkret bedeutet das:\n\n- Angebote werden im Sinn der Klientin durchgesetzt\n\n- Versorgungslücken werden aufgedeckt und benannt\n\n- Die Klientin wird gestärkt im Sinne von Empowerment\n\n- Die Case Managerin handelt als „Anwältin\\\" der Klientin\n\nBeispiel: Wenn ein Dienst nicht die benötigte Unterstützung liefert,\nspricht die Case Managerin im Namen der Klientin mit dem Anbieter und\nsetzt sich für deren Bedürfnisse ein."
+        },
+        {
+          "q": "Was versteht man unter der Broker-Funktion? Worin unterscheidet sie\nsich von der Advocacy-Funktion?",
+          "a": "Bei der Broker-Funktion gibt die Case Managerin Orientierung in einer\nunübersichtlichen Versorgungslandschaft. Sie vermittelt passende\nDienstleistungen und bleibt dabei zwischen Klientin und Anbieter\nmöglichst neutral.\n\nEinfach gesagt: Sie ist Vermittlerin und Lotsin -- sie kennt das\nSystem und führt die Klientin durch es hindurch.\n\nUnterschied zur Advocacy-Funktion:\n\n- Advocacy = parteilich, kämpft für die Klientin, setzt Interessen\ndurch\n\n- Broker = neutral, vermittelt, lotst, informiert über Angebote\n\nBeide Funktionen können je nach Situation gefragt sein, aber sie\nunterscheiden sich in der Haltung (parteilich vs. neutral)."
+        },
+        {
+          "q": "Erklären Sie die Gate-Keeper-Funktion. Welche Spannung kann dabei\nentstehen?",
+          "a": "Bei der Gate-Keeper-Funktion steuert die Case Managerin den Zugang\nzum Leistungssystem. Sie achtet darauf, dass notwendige Leistungen\nermöglicht werden, aber auch wirtschaftlich und effizient eingesetzt\nwerden.\n\nEinfach gesagt: Sie ist Türöffnerin und zugleich „Filter\\\" für\nsinnvolle, notwendige Leistungen.\n\nSpannung entsteht, weil die Gate-Keeper-Funktion manchmal mit der\nAdvocacy-Funktion in Konflikt gerät:\n\n- Auf der einen Seite soll die Case Managerin für die Klientin\neintreten\n\n- Auf der anderen Seite muss sie Ressourcen begrenzen und auf\nWirtschaftlichkeit achten\n\n- Dies kann zu einem Rollenkonflikt führen, wenn die Wünsche der\nKlientin und die verfügbaren Mittel auseinandergehen."
+        },
+        {
+          "q": "Was ist die Social-Supporter-Funktion und wann kommt sie besonders\nzum Einsatz?",
+          "a": "Bei der Social-Supporter-Funktion unterstützt und stärkt die Case\nManagerin Klienten, die wegen ihrer schwierigen Lage gerade nicht in\nder Lage sind, Hilfe selbst zu organisieren oder Entscheidungen zu\ntreffen.\n\nZiel ist:\n\n- Entlastung der Klientin\n\n- Wiederherstellung von Selbstbestimmung und Handlungsfähigkeit\n\nEinfach gesagt: Die Case Managerin ist eine „Stütze auf Zeit\\\" -- sie\nübernimmt vorübergehend Aufgaben, die die Klientin gerade nicht\nbewältigen kann, mit dem Ziel, dass die Klientin diese langfristig\nwieder selbst übernehmen kann.\n\nBesonders wichtig bei: Krisenzeiten, schweren Erkrankungen,\nErschöpfung oder kognitiven Einschränkungen."
+        },
+        {
+          "q": "Nennen Sie alle vier Funktionen im Case Management und ordnen Sie\njedem eine Alltagssituation aus der Fallarbeit zu.",
+          "a": "1. Advocacy-Funktion (Anwältin der Klientin):\n\nBeispiel: Frau Müller bekommt vom Pflegedienst nur 1x/Woche\nUnterstützung, braucht aber mehr. Die Case Managerin setzt sich aktiv\ndafür ein, dass der Pflegebedarf erhöht wird.\n\n2. Broker-Funktion (Vermittlerin und Lotsin):\n\nBeispiel: Herr Maier weiß nicht, welche Unterstützungsangebote es\nnach seiner Entlassung gibt. Die Case Managerin informiert ihn\nneutral über Hauskrankenpflege, MOHI und betreutes Wohnen.\n\n3. Gate-Keeper-Funktion (Türöffnerin und Filter):\n\nBeispiel: Eine Klientin möchte 24-Stunden-Betreuung, der Bedarf ist\naber noch nicht ausreichend belegt. Die Case Managerin klärt, welche\nLeistungen wirklich notwendig und finanzierbar sind.\n\n4. Social-Supporter-Funktion (Stütze auf Zeit):\n\nBeispiel: Frau Müller ist nach ihrem Krankenhausaufenthalt so\nerschöpft, dass sie keine Anträge stellen kann. Die Case Managerin\nübernimmt dies vorübergehend für sie."
+        }
+      ]
+    },
+    {
+      "name": "Der Case-Management-Kreislauf",
+      "questions": [
+        {
+          "q": "Nennen Sie alle sechs Phasen des Case-Management-Kreislaufs in der\nrichtigen Reihenfolge und erklären Sie jede Phase kurz.",
+          "a": "Eselsbrücke: K-A-S-L-M-E = Klären -- Assessen -- Service planen --\nLinken -- Monitoring -- Evaluieren\n\n1. Klärungsphase: Prüfung, ob und unter welchen Bedingungen die\nPerson aufgenommen werden kann. Klärung von Zuständigkeit, Auftrag\nund Rahmenbedingungen. Abschluss: Intake-Kontrakt.\n\n2. Assessment: Systematische Erhebung und Analyse der Situation.\nErfassung von Bedarfen, Ressourcen und Risiken aus subjektiver\n(Klientin) und objektiver (Fachkraft) Sicht. Ziel: gemeinsames\nFallverständnis.\n\n3. Serviceplanung: Festlegung von Wirkungs- und Handlungszielen\nsowie konkreten Maßnahmen, Zuständigkeiten und Zeiträumen. Ergebnis:\nHilfeplan.\n\n4. Linking: Die vereinbarten Maßnahmen werden „installiert\\\", also\nkonkret angebunden, organisiert und in Gang gesetzt.\n\n5. Monitoring: Laufende Überprüfung, ob die Hilfen wie geplant\nlaufen und ob sie noch dem Bedarf entsprechen. Bei Bedarf:\nNachjustierung oder Re-Assessment.\n\n6. Evaluation: Abschließende Bewertung des gesamten Prozesses auf\nFallebene (Zielerreichung, Zufriedenheit) und Systemebene\n(Versorgungsstruktur, Zusammenarbeit)."
+        },
+        {
+          "q": "Was passiert in der Klärungsphase genau? Welche drei Schritte umfasst\nsie?",
+          "a": "In der Klärungsphase wird geprüft, ob die Person in das Case\nManagement aufgenommen werden kann und soll. Ziel ist es,\nZuständigkeit, Rahmenbedingungen und Auftrag zu klären.\n\nDie drei Schritte der Klärungsphase:\n\n1. Outreach / Access: Kontaktaufnahme mit der Person (z.B.\nHausbesuch, Telefonat, Überweisung durch Krankenhaus)\n\n2. Case Finding: Klärung, ob Case Management für diese Person\nüberhaupt notwendig ist (Prüfung der Intake-Kriterien)\n\n3. Intake: Verbindliche Vereinbarung / Kontrakt zur Einleitung des\nCase Managements\n\nWichtig: Intake ist nicht nur „jemanden aufnehmen\\\", sondern die\nverbindliche Vereinbarung über die Zusammenarbeit, die Klärung des\nAuftrags und gegenseitiger Erwartungen."
+        },
+        {
+          "q": "Erklären Sie den Unterschied zwischen Linking und Monitoring. Warum\nist diese Unterscheidung wichtig?",
+          "a": "Linking: Die vereinbarten Maßnahmen aus dem Hilfeplan werden konkret\nangebunden, organisiert und in Gang gesetzt. Das ist ein aktiver\nInstallationsschritt -- Dienste werden beauftragt, Termine\nvereinbart, Hilfen gestartet.\n\nMonitoring: Die Umsetzung der bereits installierten Maßnahmen wird\nlaufend beobachtet, überprüft und dokumentiert. Es wird geprüft, ob\ndie Hilfen wie geplant laufen und ob sie noch dem Bedarf entsprechen.\n\nEinfacher Merksatz aus den Unterlagen:\n\n„Beim Linking werden Maßnahmen installiert, beim Monitoring wird\nderen Umsetzung beobachtet und dokumentiert.\\\"\n\nDie Unterscheidung ist wichtig, weil Monitoring kein einmaliger\nTermin ist, sondern ein kontinuierlicher Prozess. Nur durch\nregelmäßiges Monitoring können Veränderungen im Bedarf erkannt und\ndie Hilfen angepasst werden."
+        },
+        {
+          "q": "Was umfasst die Evaluation am Ende des Case-Management-Prozesses?\nUnterscheiden Sie dabei Fallebene und Systemebene.",
+          "a": "Evaluation ist die abschließende Bewertung des gesamten\nUnterstützungsprozesses. Es wird geprüft, was erreicht wurde, wie gut\ndie Unterstützung war und was daraus zu lernen ist.\n\nFallebene -- man schaut auf:\n\n- Zufriedenheit der Klientin\n\n- Zielerreichung (wurden Wirkungs- und Handlungsziele erreicht?)\n\n- Veränderung des psychischen, physischen und sozialen Zustands\n\n- Verhaltensänderungen\n\nSystemebene -- man schaut auf:\n\n- Stärken und Schwächen der Versorgungsstruktur\n\n- Eigene Organisationsstruktur\n\n- Zusammenarbeit mit Leistungserbringern und Kostenträgern\n\n- Verbesserungspotenziale für künftige Fälle\n\nPrüfungstipp: Bei Evaluation immer beide Ebenen nennen -- Fallebene +\nSystemebene!\n\nInstrumente aus den Unterlagen: Kompetenzdiagramm, subjektive\nEinschätzung der Lebensbereiche."
+        },
+        {
+          "q": "Wann ist ein Case-Management-Fall abgeschlossen? Nennen Sie auch\nungeplante Beendigungen.",
+          "a": "Ein Fall ist abgeschlossen, wenn im Monitoring festgestellt wird,\ndass die formulierten Ziele erreicht wurden. Konkrete Kriterien:\n\n- Die Versorgung ist stabil organisiert\n\n- Die Klientin kann sicher zu Hause leben oder eine passende andere\nWohn- und Versorgungsform wurde gefunden\n\n- Zuständigkeiten sind klar geregelt\n\n- Alle wichtigen Leistungen sind installiert\n\n- Keine dauernden Nachsteuerungen mehr nötig\n\n- Klientin und alle Beteiligten erleben die Situation als\nausreichend stabil\n\nUngeplante Beendigungen können eintreten bei:\n\n- Tod der Klientin\n\n- Wohnortwechsel\n\n- Abbruch durch die Klientin\n\nBei ungeplanten Beendigungen sind genaue Abstimmung und sorgfältige\nDokumentation besonders wichtig."
+        }
+      ]
+    },
+    {
+      "name": "Komplexe Fälle und Intake-Kriterien",
+      "questions": [
+        {
+          "q": "Wann ist ein Fall als komplex zu bezeichnen? Nennen Sie mindestens\nfünf Intake-Kriterien aus den Unterlagen.",
+          "a": "Ein Fall ist komplex, wenn mehrere Problemlagen, Lebensbereiche und\nAkteure zusammenwirken und die Situation nicht durch eine einzige\nIntervention lösbar ist. Case Management ist dann sinnvoll, wenn es\neinen ganzheitlichen Blick und koordinierte Unterstützung braucht.\n\nIntake-Kriterien (aus den Unterlagen):\n\n1. Mehrdimensionale Problemkomplexität\n\n2. Handlungsbedarf in mehreren Lebensbereichen (z.B. Gesundheit,\nFinanzen, soziales Umfeld, Recht)\n\n3. Hohe Akteursdichte: mehrere Fachpersonen und Bezugspersonen sind\nbeteiligt\n\n4. Wenig oder keine Ressourcen im Klientensystem (persönliche,\nsoziale, strukturelle oder materielle)\n\n5. Regelversorgung greift nicht aus\n\n6. Überforderung des Klientensystems bei Organisation und\nKoordination\n\n7. Hohe Kosten\n\n8. Probleme im Umgang mit Versorgungsangeboten\n\nMerksatz: Ein Fall ist komplex, wenn vieles gleichzeitig schwierig\nist und niemand allein den Überblick behält."
+        },
+        {
+          "q": "Was ist der Intake genau? Worin besteht der Unterschied zwischen Case\nFinding und Intake?",
+          "a": "Case Finding ist der Schritt, in dem geprüft wird, ob Case Management\nfür diese Person notwendig ist. Hier werden die Intake-Kriterien\nüberprüft.\n\nIntake ist der Schritt nach dem Case Finding: Wenn die Prüfung\npositiv ausfällt, wird ein verbindlicher Kontrakt zur Zusammenarbeit\ngeschlossen. Intake ist also nicht nur „jemanden aufnehmen\\\", sondern\ndie formelle Vereinbarung, die den Start des\nCase-Management-Prozesses markiert. Gegenseitige Erwartungen werden\ngeklärt.\n\nUnterschied auf den Punkt gebracht:\n\n- Case Finding = Prüfung: Braucht diese Person CM?\n\n- Intake = Vereinbarung: Wir arbeiten jetzt zusammen -- und zwar so."
+        }
+      ]
+    },
+    {
+      "name": "Assessment, Serviceplanung, Monitoring",
+      "questions": [
+        {
+          "q": "Was ist das Ziel des Assessments im Case Management? Welche\nGrundideen leiten das Assessment?",
+          "a": "Das Assessment ist die systematische Einschätzung des\nVersorgungsbedarfs und der vorhandenen Ressourcen. Erhoben werden:\nBelastungen, Risiken, Wünsche, Bedarfe und Ressourcen. Subjektive und\nobjektive Sicht werden zusammengeführt. Ziel ist ein gemeinsames\nFallverständnis.\n\nGrundideen im Assessment (aus den Unterlagen):\n\n- Der Blick bestimmt das Verstehen\n\n- Probleme werden nicht nur als Defizite betrachtet, sondern als\nAufgaben, die zu bewältigen sind\n\n- Alle Beteiligten sind auf ihre Weise Experten\n\n- Unterschiede in der Sichtweise sind normal und werden ernst\ngenommen"
+        },
+        {
+          "q": "Beschreiben Sie das Genogramm und die Ökomap als\nAssessment-Instrumente. Was zeigt jedes Instrument?",
+          "a": "Genogramm:\n\n- Grafische Darstellung der familiären Beziehungen über mehrere\nGenerationen\n\n- Zeigt Verwandschaftsverhältnisse, Gesundheitszustände,\nErkrankungen, Rollen und Beziehungen\n\n- Wird genutzt, um Ressourcen und Belastungen innerhalb der Familie\nzu erkennen\n\nÖkomap:\n\n- Grafische Darstellung der Beziehungen einer Person oder Familie zu\nihrem sozialen Umfeld\n\n- Zeigt formelle Unterstützungsnetzwerke (z.B. Dienste,\nInstitutionen)\n\n- Zeigt die Stärke und Qualität dieser Beziehungen\n\n- Dient dazu, Ressourcen und Belastungen im sozialen Umfeld zu\nerkennen\n\nUnterschied: Das Genogramm blickt nach innen (Familie), die Ökomap\nblickt nach außen (soziales Umfeld und Institutionen)."
+        },
+        {
+          "q": "Was wird im Interviewleitfaden des Assessments erhoben? Nennen Sie\nmindestens sechs Bereiche.",
+          "a": "Im Interviewleitfaden werden Ressourcen, Bedarfe und Problemlagen\nsystematisch erhoben. Bereiche (aus den Unterlagen):\n\n1. Körperliche Verfassung: Gesundheitszustand, Erkrankungen\n\n2. Psychische/geistige Verfassung: Antrieb, kognitive Situation\n\n3. Wohnsituation: Größe, Zustand, Hindernisse, Barrierefreiheit,\nNachbarschaft\n\n4. Finanzen: finanzielle Situation, Unterstützungsbedarf, Umgang mit\nGeld\n\n5. Soziale Situation: Familie, Beziehungen, Freizeitinteressen,\nVereine (Netzwerkkarte)\n\n6. Fähigkeit zur Selbstsorge: Ernährung, Mobilität, Körperpflege\n\n7. Alltagsbewältigung: Einkaufen, Haushaltsführung,\nBehördenangelegenheiten\n\n8. Persönlichkeit: Erscheinungsbild, Werte, Motivation,\nZukunftsvorstellungen\n\n9. Bildung/Arbeit: Bildungsgrad, Beziehung zur Arbeit,\nDeutschkenntnisse\n\n10. Rechtliche Angelegenheiten: z.B. Erwachsenenvertretung"
+        },
+        {
+          "q": "Was ist der Unterschied zwischen einem Wirkungsziel und einem\nHandlungsziel? Geben Sie jeweils ein konkretes Beispiel aus der\nFallarbeit.",
+          "a": "Wirkungsziel: Beschreibt den angestrebten Zustand -- also das\nübergeordnete Ergebnis, das am Ende erreicht sein soll.\n\nBeispiel: „Frau Müller lebt weiterhin sicher und möglichst\nselbstständig zu Hause und ist angemessen versorgt.\\\"\n\nHandlungsziele: Sind die kleineren, konkreten Schritte, die zum\nWirkungsziel führen.\n\nBeispiele:\n\n- Wohnsicherheit erhöhen (Treppengeländer, Haltegriffe)\n\n- Demenzabklärung veranlassen\n\n- Unterstützung im Haushalt organisieren\n\n- Finanzielle Ansprüche klären\n\n- Versorgung mit Pflege ausbauen\n\nReihenfolge laut Unterlagen: Wunsch → Wirkungsziel → Handlungsziele →\nMaßnahmen → Zuständigkeit → Zeitraum"
+        },
+        {
+          "q": "Erklären Sie die WOOP-Methode in der Serviceplanung.",
+          "a": "WOOP ist eine Methode zur strukturierten Planung in der\nServiceplanung:\n\nW -- Wish (Wunsch der Klientin): Was wünscht sich die Klientin? Was\nist ihr wichtig?\n\nBeispiel: „Ich möchte weiterhin zu Hause wohnen bleiben.\\\"\n\nO -- Outcome (Wirkungsziel): Welcher Zustand soll erreicht werden?\n\nBeispiel: „Frau Müller lebt sicher und versorgt in ihrer Wohnung.\\\"\n\nO -- Obstacle (Hindernisse): Was steht dem Wunsch im Weg?\n\nBeispiel: Treppenproblem, unklare Finanzen, mögliche Demenz,\nunzureichende Versorgung.\n\nP -- Plan (Brücke zur Umsetzung): Welche konkreten Maßnahmen werden\ngeplant?\n\nBeispiel: Hauskrankenpflege ausweiten, MOHI organisieren, Pflegegeld\nbeantragen, Hausarzttermin.\n\nDie WOOP-Methode hilft, den Wunsch der Klientin direkt mit\nrealistischen Maßnahmen zu verknüpfen."
+        },
+        {
+          "q": "Was bedeutet Monitoring konkret? Welche vier möglichen Ergebnisse\nkann ein Monitoring haben?",
+          "a": "Monitoring bedeutet, dass die Umsetzung des Hilfeplans laufend\nbeobachtet, überprüft und dokumentiert wird. Monitoring ist kein\neinmaliger Termin, sondern ein kontinuierlicher Prozess.\n\nDie zwei zentralen Leitfragen:\n\n1. Läuft die Umsetzung der Hilfen wie geplant?\n\n2. Entsprechen die Hilfen immer noch dem Bedarf der Klientin?\n\nVier mögliche Ergebnisse des Monitorings (aus den Unterlagen,\nFallbeispiel Frau Care):\n\n1. Keine Anpassung notwendig -- alles läuft wie geplant\n\n2. Geringes Nachjustieren -- kleine Änderungen reichen aus\n\n3. Starkes Nachjustieren -- wesentliche Änderungen am Hilfeplan\n\n4. Re-Assessment -- die gesamte Situation muss neu erhoben werden,\nweil sich der Bedarf grundlegend verändert hat"
+        }
+      ]
+    },
+    {
+      "name": "Dienstleistungen, Finanzen und Gesprächsführung",
+      "questions": [
+        {
+          "q": "Nennen Sie mindestens acht Dienstleistungsangebote im Bereich\nBetreuung und Pflege, die in den Unterlagen genannt werden.",
+          "a": "Aus den Unterlagen (Wegbegleiter / Servicestelle für Betreuung und\nPflege):\n\n1. Hauskrankenpflege\n\n2. Mobile Hilfsdienste (MOHI)\n\n3. Tagesbetreuung (teilstationär)\n\n4. Kurzzeit-/Übergangspflege\n\n5. Urlaub von der Pflege (Entlastung pflegender Angehöriger)\n\n6. Pflegeheime (stationär)\n\n7. Betreutes Wohnen\n\n8. Betreute Seniorenwohngemeinschaften\n\n9. Demenzangebote\n\n10. Psychosoziale Beratung\n\n11. Hospiz und Palliative Care\n\n12. Hilfsmittelberatung und Wohnraumanpassung\n\nUnterscheidung: mobile, teilstationäre, stationäre, beratende,\npsychosoziale und finanzielle Angebote."
+        },
+        {
+          "q": "Welche finanziellen Unterstützungsmöglichkeiten nennen die\nUnterlagen? Erklären Sie das Pflegegeld und den Angehörigenbonus\ngenauer.",
+          "a": "Finanzielle Unterstützungsmöglichkeiten (aus den Unterlagen):\n\n- Pflegegeld\n\n- Zuschuss des Landes zur häuslichen Betreuung und Pflege\n\n- Angehörigenbonus\n\n- Pensions- und Krankenversicherung für pflegende Angehörige\n\n- Förderung der 24-Stunden-Betreuung (+ Vorarlberg-Förderung)\n\n- Pflegekarenz / Pflegeteilzeit\n\n- Übergangspflege / Urlaub von der Pflege\n\n- Je nach Lage: Sozialhilfe, Wohnbeihilfe, Heizkostenzuschuss\n\nPflegegeld genauer:\n\nVoraussetzungen: Pflegebedürftigkeit voraussichtlich mindestens 6\nMonate und gewöhnlicher Aufenthalt in Österreich. Grundlage ist ein\nGutachten; die Begutachtung erfolgt meist per Hausbesuch.\n\nAngehörigenbonus (Stand 2025 laut Unterlagen):\n\n1.569,60 Euro jährlich für pflegende nahe Angehörige unter den\ngenannten Voraussetzungen.\n\nZuschuss des Landes (Stand 2025 laut Unterlagen):\n\n200 Euro monatlich, zwölfmal jährlich, für Personen mit Pflegegeld ab\nStufe 5 bzw. vergleichbarem Pflegebedarf."
+        },
+        {
+          "q": "Was sind die zentralen Grundhaltungen in der Gesprächsführung im Case\nManagement? Wie unterscheidet sich die systemisch-lösungsorientierte\nHaltung von der direktiven Beratung?",
+          "a": "Im Case Management ist die systemisch-lösungsorientierte Haltung\nzentral (nicht direktive Beratung).\n\nGrundhaltungen:\n\n- Berater:in ist eher Begleiter:in als „Chef:in\\\"\n\n- Klient:in ist Expert:in für das eigene Leben\n\n- Hilfe zur Selbsthilfe\n\n- Ressourcen- und Lösungsorientierung\n\n- Aus Betroffenen Beteiligte machen\n\nWichtige kommunikative Elemente:\n\n- Aktives Zuhören\n\n- Offene Fragen stellen\n\n- Beobachten und beschreiben statt vorschnell bewerten\n\n- Lösungsorientierte Fragen\n\n- Zirkuläre Fragen (z.B. „Was würde Ihre Tochter dazu sagen?\\\")\n\n- Gemeinsam Alternativen erarbeiten\n\nGefahren der direktiven Haltung:\n\n- Entmündigung der Klientin\n\n- Abhängigkeit vom Case Manager\n\n- Mangelnde Mitarbeit bei der Umsetzung\n\n- Überforderung in Krisensituationen, wenn zu viel Selbststeuerung\nverlangt wird\n\nEselsbrücke: A-O-Z-R = Aktiv zuhören -- Offen fragen -- Ziele\ngemeinsam klären -- Ressourcen suchen"
+        },
+        {
+          "q": "Was bedeutet Personenzentrierung im Case Management?",
+          "a": "Personenzentrierung bedeutet, dass im Mittelpunkt die individuelle\nLebenslage der Person steht. Die Person wird nicht nur als\n„Empfängerin von Maßnahmen\\\" gesehen, sondern ihre Selbstbestimmung,\nAutonomie und Sichtweise werden ernst genommen.\n\nKonkret:\n\n- Case Management entscheidet nicht über die Person hinweg, sondern\nhandelt mit ihr gemeinsam\n\n- Die Person bleibt ein eigenständiges Gegenüber, kein Objekt der\nHilfe\n\n- Autonomie und Selbstbestimmung haben Vorrang\n\n- Der Wille der Person ist Ausgangspunkt jeder Planung\n\nBasis ist das Konzept von Wendt/Löcherbach: Personenzentrierung als\nGrundprinzip professioneller Fallsteuerung."
+        }
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "title": "Fallbeispiel 1: Frau Müller",
+      "vignette": "**Situation**\n\nFrau Müller ist 78 Jahre alt, lebt allein zu Hause und wurde nach\neinem Oberschenkelhalsbruch aus dem Krankenhaus entlassen. Die\nHauskrankenpflege kommt wegen Blutverdünnungsspritzen und unterstützt\neinmal wöchentlich beim Duschen. Beim Hausbesuch zeigt sich: Frau\nMüller ist körperlich geschwächt und mit Krücken unsicher mobil. Das\nHaus ist verwahrlost, sie ist mit Haushalt und Organisation\nüberfordert, die finanzielle Situation ist unklar, und es besteht der\nVerdacht auf beginnende Demenz. Ihre Tochter hilft, war aber wegen\neigener Krankheit nur eingeschränkt verfügbar. Frau Müller möchte\nunbedingt zu Hause bleiben.",
+      "questions": [
+        {
+          "q": "A\\) Handelt es sich hier um einen Case-Management-Fall? Begründen Sie\nanhand der Intake-Kriterien.",
+          "a": "Ja, es handelt sich eindeutig um einen CM-Fall.\n\nBegründung anhand der Intake-Kriterien:\n\n- Mehrdimensionale Problemkomplexität: Gesundheit\n(Oberschenkelhalsbruch, Demenz-Verdacht), Pflege, Haushalt, Wohnen,\nFinanzen, Familie\n\n- Hohe Akteursdichte: Hauskrankenpflege, Tochter, Krankenhaus,\nHausarzt, Case Managerin\n\n- Wenig Ressourcen: lebt allein, Tochter nur begrenzt verfügbar,\nfinanzielle Lage unklar, mögliche kognitive Einschränkung\n\n- Regelversorgung greift nicht: 1x/Woche Duschen und Spritzen löst\ndie Gesamtsituation nicht\n\n- Überforderung: Frau Müller ist mit Organisation überfordert, Haus\nist verwahrlost"
+        },
+        {
+          "q": "B\\) Was würden Sie im Assessment bei Frau Müller erheben? Nennen Sie\nkonkrete Bereiche.",
+          "a": "Körperliche Situation: Mobilität, Schmerz, Sturzrisiko, ADL\n(Aktivitäten des täglichen Lebens), Treppensteigen\n\nKognitive Situation: Gedächtnis, Orientierung, Verdacht auf Demenz\nabklären\n\nPflegerische Situation: Körperpflege, Medikamenteneinnahme,\nErnährung, Haushaltsführung\n\nWohnsituation: Treppen, Sauberkeit, Sicherheit, Barrierefreiheit\n\nSoziale Ressourcen: Tochter, Nachbarn, mögliche weitere\nBezugspersonen\n\nMedizinische Versorgung: Hausarztkontakt, Therapiebedarf\n\nFinanzielle Situation: Pension, Ansprüche auf Pflegegeld oder andere\nUnterstützungen\n\nSubjektive Ziele: Frau Müller möchte zu Hause bleiben → als\nAusgangspunkt ernst nehmen"
+        },
+        {
+          "q": "C\\) Formulieren Sie ein Wirkungsziel und zwei Handlungsziele für Frau\nMüller.",
+          "a": "Wirkungsziel: Frau Müller lebt weiterhin sicher und möglichst\nselbstständig zu Hause und ist angemessen versorgt.\n\nHandlungsziel 1: Wohnsicherheit erhöhen (Handlauf anbringen,\nStolperfallen beseitigen, Hilfsmittel beschaffen)\n\nHandlungsziel 2: Demenzabklärung veranlassen (Hausarzttermin,\nÜberweisung zum Facharzt)\n\nWeitere mögliche Handlungsziele: Haushaltshilfe organisieren,\nPflegegeld beantragen, Unterstützung der Tochter abstimmen"
+        },
+        {
+          "q": "D\\) Wie würden Sie das Monitoring bei Frau Müller gestalten?",
+          "a": "- Regelmäßige Hausbesuche oder Telefonkontakte\n\n- Rückmeldungen von Frau Müller, ihrer Tochter und der\nHauskrankenpflege einholen\n\n- Prüfen, ob Maßnahmen umgesetzt wurden (z.B. Demenzabklärung,\nHilfsmittel)\n\n- Auf neue Risiken achten: Stürze, Überforderung, Verschlechterung\nder Kognition, Sicherheitsprobleme im Haus\n\n- Dokumentieren, was sich verbessert oder verschlechtert hat\n\n- Falls nötig: Anpassung des Plans oder neues Assessment\n(Re-Assessment)"
+        }
+      ]
+    },
+    {
+      "title": "Fallbeispiel 2: Frau Care",
+      "vignette": "**Situation**\n\nFrau Care hat gesundheitliche Probleme, eine kleine Rente und\nSchulden. Sie hat Kontakt zu mehreren Stellen, fühlt sich aber\ntrotzdem überfordert. Das Hauptproblem ist nicht, dass es keine\nAngebote gibt, sondern dass Orientierung, klare Zuständigkeiten,\nStruktur und Koordination fehlen.",
+      "questions": [
+        {
+          "q": "A\\) Warum eignet sich Frau Care als CM-Fall und welche Funktion der\nCase Managerin ist hier besonders gefragt?",
+          "a": "Frau Care ist ein CM-Fall, weil mehrere Bereiche gleichzeitig\nproblematisch sind: Gesundheit, Finanzen und mangelnde Orientierung\nim Versorgungssystem. Die Regelversorgung greift nicht, weil es zwar\nAngebote gibt, aber niemand sie koordiniert und Frau Care überfordert\nist.\n\nBesonders gefragt ist die Broker-Funktion: Die Case Managerin lotst\nFrau Care durch die unübersichtliche Versorgungslandschaft,\nvermittelt passende Dienste und schafft Übersicht und Struktur.\nZusätzlich kann die Social-Supporter-Funktion nötig sein, wenn Frau\nCare gerade nicht in der Lage ist, selbst Entscheidungen zu treffen."
+        },
+        {
+          "q": "B\\) Was sind mögliche Monitoring-Ergebnisse bei Frau Care? Nennen Sie\nalle vier Möglichkeiten.",
+          "a": "Laut Unterlagen (Fallbeispiel Frau Care) kann Monitoring vier\nErgebnisse haben:\n\n1. Keine Anpassung -- alles läuft wie geplant\n\n2. Geringes Nachjustieren -- kleine Anpassungen reichen\n\n3. Starkes Nachjustieren -- wesentliche Änderungen am Hilfeplan\nnotwendig\n\n4. Re-Assessment -- die gesamte Situation muss neu erhoben werden\n\nBei Frau Care wäre z.B. ein Re-Assessment nötig, wenn sich ihre\ngesundheitliche Situation deutlich verschlechtert oder neue\nProblembereiche auftauchen."
+        }
+      ]
+    },
+    {
+      "title": "Fallbeispiel 3: Frau Demir",
+      "vignette": "**Situation**\n\nDer Sohn von Frau Demir meldet sich beim Mobilen Hilfsdienst, weil\nseine Mutter Unterstützung beim Einkaufen braucht. Frau Demir ist\ngrundsätzlich noch recht fit, aber das Einkaufen ist altersbedingt\nanstrengend. Ihr Sohn lebt weiter weg.",
+      "questions": [
+        {
+          "q": "A\\) Warum ist dies kein Case-Management-Fall? Welche Lösung wäre\nstattdessen angemessen?",
+          "a": "Kein CM-Fall, weil:\n\n- Die Situation überschaubar ist: nur ein konkretes Problem\n(Einkaufen)\n\n- Keine Mehrdimensionalität vorliegt: keine weiteren bekannten\nProblembereiche\n\n- Keine hohe Akteursdichte notwendig ist\n\n- Die Regelversorgung ausreicht: ein konkretes Angebot löst das\nProblem\n\nAngemessene Lösung: Information und Beratung, direkte Vermittlung an\nden Mobilen Hilfsdienst (MOHI). Das ist Beratung, kein Case\nManagement. Frau Demir braucht eine Lösung, kein komplexes\nSteuerungssystem.\n\nMerke: Nicht jeder Unterstützungsbedarf erfordert CM -- CM ist für\nkomplexe Fälle reserviert."
+        }
+      ]
+    },
+    {
+      "title": "Fallbeispiel 4: Herr Maier",
+      "vignette": "**Situation**\n\nHerr Maier wurde gerade aus dem Krankenhaus entlassen, hat kaum\nAngehörige und benötigt wegen seines eingeschränkten\nGesundheitszustands zunehmend Unterstützung. Seine Nichte möchte\neinen Pflegegeldantrag stellen.",
+      "questions": [
+        {
+          "q": "A\\) Ist Case Management bei Herrn Maier sinnvoll? Begründen Sie.",
+          "a": "Ja, Case Management ist sinnvoll, weil mehrere Hinweise auf\nKomplexität vorliegen:\n\n- Krankenhausentlassung mit anschließend unklarer Versorgung\n\n- Eingeschränkter Gesundheitszustand\n\n- Kaum Angehörige → geringe soziale Ressourcen\n\n- Zunehmender Unterstützungsbedarf → mehrere Bereiche werden bald\nbetroffen sein\n\n- Pflegegeldantrag muss gestellt werden → rechtliche und finanzielle\nDimension\n\nEs sollte geprüft werden (Case Finding), ob CM notwendig ist. Spricht\nfür CM: mehrere Lebensbereiche, wenig eigene Ressourcen, anstehende\nKoordination verschiedener Dienste."
+        },
+        {
+          "q": "B\\) Welche Dienstleistungen und finanziellen Unterstützungen wären\nfür Herrn Maier relevant?",
+          "a": "Dienstleistungen:\n\n- Hauskrankenpflege (pflegerische Versorgung zu Hause)\n\n- Mobile Hilfsdienste (MOHI) für Haushalt und Alltagsunterstützung\n\n- Je nach Bedarf: Tagesbetreuung, betreutes Wohnen\n\nFinanzielle Unterstützungen:\n\n- Pflegegeld (Antrag durch die Nichte, Begutachtung im Hausbesuch,\nVoraussetzung: Pflegebedürftigkeit mind. 6 Monate)\n\n- Zuschuss des Landes zur häuslichen Pflege (ab Pflegegeldstufe 5)\n\n- Eventuell: Sozialhilfe, Wohnbeihilfe je nach finanzieller Lage"
+        }
+      ]
+    },
+    {
+      "title": "Fallbeispiel 5: Herr Kovač (neu)",
+      "vignette": "**Situation**\n\nHerr Kovač ist 65 Jahre alt, hat vor drei Monaten einen Schlaganfall\nerlitten und lebt mit seiner Frau in einer Wohnung im dritten Stock\nohne Lift. Er hat eine linksseitige Lähmung und benötigt\nPhysiotherapie. Seine Frau pflegt ihn rund um die Uhr, ist aber\nselbst gesundheitlich angeschlagen und erschöpft. Herr Kovač spricht\nkaum Deutsch, die Verständigung ist schwierig. Es bestehen noch\noffene Fragen zu einer möglichen Erwachsenenvertretung. Die\nfinanzielle Situation ist unklar, Pflegegeld wurde noch nicht\nbeantragt. Ein Pensionsanspruch ist vorhanden, aber Herr Kovač hat\nnoch nie in Österreich Behörden kontaktiert.",
+      "questions": [
+        {
+          "q": "A\\) Handelt es sich um einen CM-Fall? Begründen Sie mit den\nIntake-Kriterien.",
+          "a": "Ja, eindeutig ein CM-Fall.\n\nBegründung:\n\n- Mehrdimensionale Problemkomplexität: Gesundheit (Schlaganfall,\nLähmung), Pflege, Wohnen (kein Lift, 3. Stock), Sprache, Finanzen,\nrechtliche Fragen (Erwachsenenvertretung)\n\n- Hohe Akteursdichte: Physiotherapie, Hausarzt, Pflegende Ehefrau,\nCase Managerin, Behörden\n\n- Wenig Ressourcen: Frau überlastet, Sprachbarriere, keine\nBehördenerfahrung, kein Pflegegeld\n\n- Regelversorgung greift nicht: komplexe Situation, die weit über\nPflegeleistungen hinausgeht\n\n- Überforderung: Ehefrau am Limit, Herr Kovač allein nicht\nhandlungsfähig"
+        },
+        {
+          "q": "B\\) Welche Assessment-Instrumente würden Sie einsetzen und was würden\nSie konkret erheben?",
+          "a": "Instrumente:\n\n- Interviewleitfaden (mit Dolmetscher oder zweisprachiger Fachkraft)\n\n- Ökomap: Wer unterstützt? Welche Dienste? Wie stark sind die\nBeziehungen?\n\n- Ressourcenkarte: Welche Stärken und Fähigkeiten hat Herr Kovač\nnoch? Was kann die Frau leisten?\n\n- Netzwerkkarte: Gibt es Community-Ressourcen (Moschee, Landsleute,\nVereine)?\n\nErhebungsbereiche:\n\n- Körperlich: Ausmaß der Lähmung, Mobilität, Sturzrisiko,\nTherapiebedarf\n\n- Kognitiv: Orientierung, Verständnis, Kommunikationsmöglichkeiten\n\n- Wohnen: Lift fehlt → Barrierefreiheit, Umzugsmöglichkeit prüfen\n\n- Pflege: Belastung der Ehefrau, Entlastungsangebote\n\n- Finanzen: Pflegegeld beantragen, Pensionsansprüche klären\n\n- Rechtlich: Erwachsenenvertretung klären\n\n- Sprache: Dolmetscher, Sprachkurs, interkulturelle Beratung"
+        },
+        {
+          "q": "C\\) Welche Funktion der Case Managerin ist bei der erschöpften\nEhefrau besonders gefragt?",
+          "a": "Hier sind zwei Funktionen besonders relevant:\n\nSocial-Supporter-Funktion: Die Ehefrau ist selbst überlastet und\naktuell nicht in der Lage, die gesamte Organisation zu stemmen. Die\nCase Managerin übernimmt vorübergehend Aufgaben (Anträge,\nKoordination), um sie zu entlasten und Selbstbestimmung\nwiederherzustellen.\n\nAdvocacy-Funktion: Die Case Managerin setzt sich aktiv dafür ein,\ndass die Ehefrau Entlastungsangebote bekommt (z.B. Urlaub von der\nPflege, Hauskrankenpflege), auch wenn diese nicht aktiv eingefordert\nwerden.\n\nGesprächsführung: Ressourcenorientierte, offene Fragen; Zirkuläre\nFragen z.B. „Was bräuchten Sie, um sich selbst besser zu fühlen?\\\""
+        }
+      ]
+    },
+    {
+      "title": "Fallbeispiel 6: Frau Bachmann (neu)",
+      "vignette": "**Situation**\n\nFrau Bachmann ist 82 Jahre alt, Witwe, und lebt in einer kleinen\nWohnung am Land. Sie hat eine mittelschwere Demenz und wird von ihrer\nTochter Sabine betreut, die berufstätig ist und eine halbe Stunde\nentfernt wohnt. Frau Bachmann ist tagsüber allein, vergisst\nMahlzeiten und Medikamente. Zweimal ist sie nachts aus dem Haus\ngegangen und wurde von Nachbarn zurückgebracht. Ein Heimplatz wird\nvon Sabine kategorisch abgelehnt. Die finanzielle Situation ist\nangespannt. Frau Bachmann hat Pflegegeld Stufe 3. Ein\n24-Stunden-Betreuungsmodell wäre laut Tochter wünschenswert, ist aber\nunklar finanzierbar. Die Tochter ist am Limit und weint beim\nGespräch.",
+      "questions": [
+        {
+          "q": "A\\) Begründen Sie, warum dies ein CM-Fall ist.",
+          "a": "Eindeutig ein CM-Fall:\n\n- Mehrdimensionale Problemkomplexität: Demenz, Sicherheitsrisiko\n(nächtliches Weggehen), Ernährung, Medikamente, Wohnen (allein am\nLand), Finanzen, Entlastung der pflegenden Tochter\n\n- Hohe Akteursdichte: Tochter, Hausarzt, Nachbarn, mögliche Dienste,\nKostenträger\n\n- Wenig Ressourcen: Pflegegeld Stufe 3 (reicht nicht für\n24h-Betreuung), Tochter berufstätig und überlastet\n\n- Regelversorgung greift nicht: Frau Bachmann kann nicht allein\ngelassen werden, bisherige Versorgung ist unzureichend und gefährlich\n\n- Sicherheitsrisiko: nächtliches Verlassen des Hauses ist akute\nGefahr"
+        },
+        {
+          "q": "B\\) Frau Bachmann möchte zu Hause bleiben, Sabine lehnt ein Heim ab.\nWie gehen Sie mit diesem Wunsch um? Welche Haltung zeigt das?",
+          "a": "Personenzentrierung und lösungsorientierte Haltung:\n\nDer Wunsch von Frau Bachmann (zu Hause bleiben) und der Wunsch der\nTochter (kein Heim) sind ernst zu nehmen als Ausgangspunkt der\nPlanung.\n\nDie Case Managerin handelt nicht über die Beteiligten hinweg, sondern\nmit ihnen gemeinsam (Personenzentrierung).\n\nKonkrete Haltung:\n\n- Wunsch ernst nehmen, nicht sofort widersprechen\n\n- Ressourcen und Hindernisse gemeinsam erarbeiten (WOOP-Methode)\n\n- Realistisch informieren: Was ist zu Hause mit welchen Diensten\nmöglich?\n\n- Alternativen aufzeigen: Tagesbetreuung, betreute WG, Demenz-WG --\nnicht nur „Heim oder gar nichts\\\"\n\n- Sabines Erschöpfung ernst nehmen: Social-Supporter-Funktion,\nEntlastungsangebote ansprechen\n\nZirkuläre Frage: „Wenn Mama weiterhin zu Hause ist -- was bräuchten\nSie, damit das für Sie tragbar bleibt?\\\"\n\nAdvocacy-Funktion: Für die Sicherheit von Frau Bachmann eintreten,\nauch wenn das unbequem ist."
+        },
+        {
+          "q": "C\\) Welche konkreten Dienstleistungen und finanziellen Mittel wären\nzu prüfen?",
+          "a": "Dienstleistungen:\n\n- Hauskrankenpflege (Medikamentenmanagement, Pflege)\n\n- Mobile Hilfsdienste / MOHI (Mahlzeiten, Haushalt)\n\n- Tagesbetreuung (Demenzangebote) → Sabine tagsüber entlastet\n\n- Urlaub von der Pflege (Kurzzeitpflege), damit Sabine sich erholen\nkann\n\n- GPS-Tracker oder Türalarm als Sicherheitsmaßnahme\n(Hilfsmittelberatung)\n\n- Demenzspezifische Angebote in der Region\n\nFinanziell zu prüfen:\n\n- Pflegegeld: Stufe 3 → Höherstufung prüfen (Bedarf ist gewachsen)\n\n- 24-Stunden-Betreuungsförderung (Voraussetzungen und Förderung\nprüfen)\n\n- Angehörigenbonus für Sabine (1.569,60 € jährlich, Stand 2025)\n\n- Zuschuss des Landes (ab Pflegegeldstufe 5, also erst nach\nmöglicher Höherstufung relevant)\n\n- Sozialhilfe / weitere Beihilfen je nach Einkommenssituation"
+        }
+      ]
+    }
+  ]
+}
