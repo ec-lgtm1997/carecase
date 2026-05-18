@@ -18,43 +18,38 @@ function toRecord(row: Record<string, unknown>): SessionRecord {
 }
 
 export const fetchSessions = createServerFn({ method: "GET" })
-  .handler(async ({ data }: { data: string }) => {
+  .handler(async () => {
     const pool = getPool();
     const { rows } = await pool.query(
-      "SELECT * FROM sessions WHERE sync_code = $1 ORDER BY date DESC LIMIT 200",
-      [data]
+      "SELECT * FROM sessions ORDER BY date DESC LIMIT 200"
     );
     return rows.map(toRecord);
   });
 
 export const saveSessionFn = createServerFn({ method: "POST" })
-  .handler(async ({ data }: { data: { syncCode: string; record: SessionRecord } }) => {
-    const { syncCode, record: r } = data;
+  .handler(async ({ data }: { data: SessionRecord }) => {
+    const r = data;
     const pool = getPool();
     await pool.query(
-      `INSERT INTO sessions (id, sync_code, date, mode, label, answers, total_points, max_points, percent, grade, grade_label)
-       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11)
+      `INSERT INTO sessions (id, date, mode, label, answers, total_points, max_points, percent, grade, grade_label)
+       VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10)
        ON CONFLICT (id) DO NOTHING`,
-      [r.id, syncCode, r.date, r.mode, r.label, JSON.stringify(r.answers),
+      [r.id, r.date, r.mode, r.label, JSON.stringify(r.answers),
        r.totalPoints, r.maxPoints, r.percent, r.grade, r.gradeLabel]
     );
     return { ok: true };
   });
 
 export const deleteSessionFn = createServerFn({ method: "POST" })
-  .handler(async ({ data }: { data: { syncCode: string; sessionId: string } }) => {
-    const { syncCode, sessionId } = data;
+  .handler(async ({ data }: { data: string }) => {
     const pool = getPool();
-    await pool.query(
-      "DELETE FROM sessions WHERE id = $1 AND sync_code = $2",
-      [sessionId, syncCode]
-    );
+    await pool.query("DELETE FROM sessions WHERE id = $1", [data]);
     return { ok: true };
   });
 
 export const clearSessionsFn = createServerFn({ method: "POST" })
-  .handler(async ({ data }: { data: string }) => {
+  .handler(async () => {
     const pool = getPool();
-    await pool.query("DELETE FROM sessions WHERE sync_code = $1", [data]);
+    await pool.query("DELETE FROM sessions");
     return { ok: true };
   });
