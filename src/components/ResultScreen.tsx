@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { SessionRecord } from "@/lib/history";
 
 export function ResultScreen({
@@ -9,6 +10,11 @@ export function ResultScreen({
   message: string;
   onExit: () => void;
 }) {
+  useEffect(() => {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, []);
+
   return (
     <div className="mx-auto w-full max-w-2xl px-4 pb-12 pt-6 animate-fade-up">
       <div className="rounded-3xl bg-card border border-border shadow-lg p-7 sm:p-10 text-center">
