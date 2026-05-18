@@ -168,7 +168,7 @@ function Home() {
       {tab === "history" && <History />}
 
       <footer className="mx-auto max-w-2xl px-4 py-8 text-center text-xs text-muted-foreground safe-bottom">
-        Mit Liebe gebaut. Für dich.
+        Streberimm
       </footer>
     </main>
   );
