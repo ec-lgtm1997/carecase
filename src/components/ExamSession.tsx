@@ -58,7 +58,7 @@ export function ExamSession({ questions, mode, label, onExit }: Props) {
         grade: g.grade,
         gradeLabel: g.label,
       };
-      saveSession(rec);
+      saveSession(rec).catch(console.error);
       if (parseFloat(g.grade.replace(",", ".")) <= 2.0) {
         setTimeout(() => fireConfetti(), 200);
       }

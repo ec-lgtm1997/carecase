@@ -3,11 +3,16 @@ import { SessionRecord, deleteSession, useHistory } from "@/lib/history";
 import { ScorePill } from "./ResultScreen";
 
 export function History() {
-  const { list, loading } = useHistory();
+  const { list, loading, reload } = useHistory();
   const [open, setOpen] = useState<SessionRecord | null>(null);
 
   if (open) {
-    return <DetailView record={open} onBack={() => setOpen(null)} />;
+    return (
+      <DetailView
+        record={open}
+        onBack={() => { setOpen(null); reload(); }}
+      />
+    );
   }
 
   if (loading) {
@@ -85,9 +90,9 @@ function DetailView({ record, onBack }: { record: SessionRecord; onBack: () => v
           <Stat label="Prozent" value={`${record.percent}%`} />
         </div>
         <button
-          onClick={() => {
+          onClick={async () => {
             if (confirm("Diesen Durchgang löschen?")) {
-              deleteSession(record.id);
+              await deleteSession(record.id).catch(console.error);
               onBack();
             }
           }}

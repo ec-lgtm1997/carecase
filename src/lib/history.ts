@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { saveSessionFn, deleteSessionFn, clearSessionsFn, fetchSessions } from "./server-fns";
 
 export type Score = 0 | 0.5 | 1;
 
@@ -25,38 +24,57 @@ export type SessionRecord = {
   gradeLabel: string;
 };
 
-export function saveSession(rec: SessionRecord) {
-  saveSessionFn({ data: rec }).catch(console.error);
+function fromRow(row: Record<string, unknown>): SessionRecord {
+  return {
+    id: row.id as string,
+    date: Number(row.date),
+    mode: row.mode as "theme" | "simulator",
+    label: row.label as string,
+    answers: row.answers as SessionAnswer[],
+    totalPoints: Number(row.total_points),
+    maxPoints: Number(row.max_points),
+    percent: Number(row.percent),
+    grade: row.grade as string,
+    gradeLabel: row.grade_label as string,
+  };
 }
 
-export function deleteSession(id: string) {
-  deleteSessionFn({ data: id }).catch(console.error);
+export async function saveSession(rec: SessionRecord) {
+  await fetch("/api/sessions", {
+    method: "POST",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify(rec),
+  });
 }
 
-export function clearHistory() {
-  clearSessionsFn({ data: undefined }).catch(console.error);
+export async function deleteSession(id: string) {
+  await fetch("/api/sessions", {
+    method: "DELETE",
+    headers: { "content-type": "application/json" },
+    body: JSON.stringify({ id }),
+  });
+}
+
+export async function clearHistory() {
+  await fetch("/api/sessions/clear", { method: "POST" });
 }
 
 export function useHistory() {
   const [list, setList] = useState<SessionRecord[]>([]);
   const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    fetchSessions({ data: undefined })
-      .then(setList)
+  const reload = () => {
+    setLoading(true);
+    return fetch("/api/sessions")
+      .then((r) => r.json())
+      .then((rows: Record<string, unknown>[]) => setList(rows.map(fromRow)))
       .catch(console.error)
       .finally(() => setLoading(false));
+  };
 
-    const refresh = () => {
-      fetchSessions({ data: undefined }).then(setList).catch(console.error);
-    };
-    window.addEventListener("ccm-history-changed", refresh);
-    return () => window.removeEventListener("ccm-history-changed", refresh);
+  useEffect(() => {
+    reload();
   }, []);
 
-  return { list, loading };
-}
-
-export function notifyHistoryChanged() {
-  window.dispatchEvent(new Event("ccm-history-changed"));
+  return { list, loading, reload };
 }
