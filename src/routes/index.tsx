@@ -11,7 +11,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Liebevoll gestaltete Lern-App für die Prüfung in Care und Case Management — mit Fragen, Musterlösungen, Fall­vignetten und Lern-Historie.",
+          "Lern-App für die Prüfung in Care und Case Management  mit Fragen, Musterlösungen, Fall­vignetten und Lern-Historie.",
       },
       { name: "viewport", content: "width=device-width, initial-scale=1, viewport-fit=cover" },
     ],
@@ -50,8 +50,7 @@ function Home() {
           Care & Case Management
         </h1>
         <p className="text-sm text-muted-foreground mt-2 max-w-md">
-          Ganz dein Lernraum. Schreib deine Antworten auf, vergleich sie mit der Musterlösung,
-          und schau zu, wie deine Note Stück für Stück besser wird.
+          Alsooo Askim nutz die Webseite und mach deine Klinge scharf damit du rasierstt!!
         </p>
       </header>
 
@@ -118,8 +117,7 @@ function Home() {
           <div className="rounded-3xl bg-gradient-to-br from-primary/15 via-accent/40 to-warm/15 border border-primary/20 p-6 sm:p-8">
             <h2 className="font-display text-2xl text-foreground">Prüfungs-Simulator</h2>
             <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
-              Ein zufälliger Mix aus allen Themen und Fallbeispielen — wie an einem echten
-              Prüfungstag. Atme tief, dann los.
+              Ein zufälliger Mix aus allen Themen und Fallbeispielen.
             </p>
 
             <div className="mt-6">
@@ -160,7 +158,7 @@ function Home() {
           <div className="mt-6 rounded-2xl bg-card border border-border p-5">
             <p className="text-sm text-muted-foreground leading-relaxed">
               <span className="font-medium text-foreground">Tipp:</span> Schreib deine Antworten
-              wirklich aus — auch wenn niemand zuschaut. Das aktive Formulieren ist beim Lernen
+              wirklich aus, weil das aktive Formulieren ist beim Lernen
               fast wichtiger als das Lesen.
             </p>
           </div>
